@@ -1,0 +1,30 @@
+.form-item
+  position: relative
+  margin-bottom: 8px
+  padding-bottom: 26px
+  &__input
+    width: 100%
+    padding: 16px 16px 15px
+    box-shadow: $box-shadow
+    border: $border
+    border-radius: $border-radius
+    color: $primary-dark-color
+    font-size: 1.6em
+    &::-webkit-input-placeholder
+      color: $placeholder-color
+    &::-moz-placeholder
+      color: $placeholder-color
+    &:-moz-placeholder
+      color: $placeholder-color
+    &:-ms-input-placeholder
+      color: $placeholder-color
+  &__label
+    margin-bottom: 8px
+    font-size: 1.6em
+    color: $secondary-dark-color
+  &__error
+    position: absolute
+    left: 0
+    bottom: 0
+    font-size: 1.4em
+    color: $danger-color
