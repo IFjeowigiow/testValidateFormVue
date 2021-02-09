@@ -1,5 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
+import Vuelidate from 'vuelidate'
+import './assets/sass/app.sass'
+
+Vue.use(Vuelidate)
 
 Vue.config.productionTip = false
 
